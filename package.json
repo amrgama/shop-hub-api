@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "start": "json-server --watch db.json --static ./public --port 3600",
+    "dev": "json-server --watch db.json --static ./public --port 3600"
+  },
+  "dependencies": {
+    "json-server": "^0.17.3"
+  }
+}
